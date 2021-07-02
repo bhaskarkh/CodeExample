@@ -25,10 +25,11 @@ class A extends aa
  {
 	 System.out.println(" constructor of A");
  }
- @Override
-	public int add(int a, int b) {
-	return a+b;
-	}
+ 
+@Override
+public int add(int a, int b) {
+return a+b;
+}
 	
 }
 
