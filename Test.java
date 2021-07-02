@@ -8,15 +8,10 @@ abstract class aa
 		
 	}
 	
-	
-	
 	public abstract int add(int a,int b);
 	public int sub(int a,int b)
 	{
-		
-		
 		return c; 
-		
 		
 	}
 	
@@ -28,18 +23,12 @@ class A extends aa
 {
  A()
  {
-	 
 	 System.out.println(" constructor of A");
  }
-	
-	
-	@Override
+ @Override
 	public int add(int a, int b) {
-		
-		return a+b;
+	return a+b;
 	}
-	
-	
 	
 }
 
